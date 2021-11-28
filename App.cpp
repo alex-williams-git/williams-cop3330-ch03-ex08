@@ -9,7 +9,9 @@
 
 using namespace std;
 
+// function to check if even or odd
 int checkEven(int input){
+    // if the input is even, it will have remainder of 0 when divided by 2
     if(input % 2 == 0)
         return 1;
     else
